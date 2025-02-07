@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/exe.dir/app/main.cpp.o CMakeFiles/exe.dir/base/propagation.cpp.o -o /home/dhpcsap/taseng/p/cpp/app/exe 
+/usr/bin/c++ CMakeFiles/exe.dir/app/main.cpp.o CMakeFiles/exe.dir/base/propagation.cpp.o -o "/media/taseng/One Touch/1_cdac/github/Laser-cpp/app/exe" 

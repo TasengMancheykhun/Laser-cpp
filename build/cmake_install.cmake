@@ -1,4 +1,4 @@
-# Install script for directory: /home/dhpcsap/taseng/p/cpp
+# Install script for directory: /media/taseng/One Touch/1_cdac/github/Laser-cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dhpcsap/taseng/p/cpp/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/taseng/One Touch/1_cdac/github/Laser-cpp/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

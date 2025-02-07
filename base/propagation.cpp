@@ -2,28 +2,28 @@
 
 #include "propagation.h"
 
-
 #define PI 3.1415926535897932
 
-void wavefunction::init(long size)
+void wavefunction::init(int size)
 {
     wf_dim = size;
-    start = new cplxd[size];
+    psi = new cplxd[size];
     for (long i=0; i<size; i++){
-        start[i] = cplxd(1.0,0.0);
+        psi[i] = cplxd(0.0,0.0);
     }    
 }
 
-void wavefunction::print(){
-    for (long i=0; i<wf_dim; i++){
-       cout<<start[i]<<" ";
+void wavefunction::print_1d(FILE* file, int size){
+    for (long i=0; i<size; i++){
+       //cout<<psi[i]<<" ";
+       fprintf(file,"%e %e\n",real(psi[i]),imag(psi[i]));
     }
-    cout << endl;
 }
 
-void wavefunction::kinetic_energy(long size, double dx)
+void wavefunction::kinetic_energy(int size, double dx)
 {
     wf_dim = size;
+
     hmt = new double*[size];
     for (int i=0; i<size; i++){
         hmt[i] = new double[size];
@@ -39,7 +39,7 @@ void wavefunction::kinetic_energy(long size, double dx)
     }
 }
 
-void wavefunction::printhmt(FILE* file, long size){
+void wavefunction::print_2d(FILE* file, int size){
    for (int i=0; i<size; i++){
       for (int j=0; j<size; j++){
           fprintf(file,"%e ",hmt[i][j]);

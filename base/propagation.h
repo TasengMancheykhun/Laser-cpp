@@ -17,16 +17,16 @@ class wavefunction
     //     start = new cplxd[x];
     // }
 
-    void init(long size);
-    void print();
+    void init(int size);
+    void print_1d(FILE* file, int size);
 
-    void kinetic_energy(long size, double dx);
+    void kinetic_energy(int size, double dx);
 
-    void printhmt(FILE* file, long size);
+    void print_2d(FILE* file, int size);
 
     private:
-    long wf_dim;
-    cplxd *start;
+    double wf_dim;
+    cplxd *psi;
     double **hmt;
 };
 

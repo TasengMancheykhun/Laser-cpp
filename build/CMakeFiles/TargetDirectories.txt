@@ -1,3 +1,3 @@
-/home/dhpcsap/taseng/p/cpp/build/CMakeFiles/exe.dir
-/home/dhpcsap/taseng/p/cpp/build/CMakeFiles/edit_cache.dir
-/home/dhpcsap/taseng/p/cpp/build/CMakeFiles/rebuild_cache.dir
+/media/taseng/One Touch/1_cdac/github/Laser-cpp/build/CMakeFiles/exe.dir
+/media/taseng/One Touch/1_cdac/github/Laser-cpp/build/CMakeFiles/edit_cache.dir
+/media/taseng/One Touch/1_cdac/github/Laser-cpp/build/CMakeFiles/rebuild_cache.dir

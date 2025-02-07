@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/dhpcsap/taseng/p/cpp/app/exe"
-  "/home/dhpcsap/taseng/p/cpp/app/exe.pdb"
+  "/media/taseng/One Touch/1_cdac/github/Laser-cpp/app/exe"
+  "/media/taseng/One Touch/1_cdac/github/Laser-cpp/app/exe.pdb"
   "CMakeFiles/exe.dir/app/main.cpp.o"
   "CMakeFiles/exe.dir/app/main.cpp.o.d"
   "CMakeFiles/exe.dir/base/propagation.cpp.o"
